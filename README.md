@@ -579,26 +579,3 @@ Those components will be implemented in subsequent experimental branches.
 The purpose of this branch is to establish a clean and reproducible **lexical retrieval baseline**.
 
 ---
-
-# 16. Baseline Status
-
-```text
-Dataset acquisition          COMPLETE
-Dataset validation           COMPLETE
-Corpus preparation           COMPLETE
-Test split preparation       COMPLETE
-Qrel validation              COMPLETE
-BM25 implementation          COMPLETE
-Retrieval evaluation         COMPLETE
-Latency measurement          COMPLETE
-Per-query results            COMPLETE
-
-BM25 baseline                COMPLETE
-```
-
-The current BM25 baseline is therefore the reference point for the next retrieval experiment: **dense semantic retrieval**.
-
-```
-
-This is the version I'd commit with the BM25 branch. It documents **what we actually ran**, rather than mixing in the future RL architecture prematurely.
-```
