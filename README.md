@@ -122,9 +122,3 @@ The next phase of this project will:
 - Compare RL-based selection with baseline retrieval methods
 - Evaluate on downstream QA tasks using selected context
 
-## References
-
-- [E5 Embeddings](https://huggingface.co/intfloat/e5-base-v2)
-- [BGE Embeddings](https://huggingface.co/BAAI/bge-base-en-v1.5)
-- [QASPER Dataset](https://huggingface.co/datasets/DinoStackAI/qasper-rag)
-- [FAISS for Dense Retrieval](https://github.com/facebookresearch/faiss)
