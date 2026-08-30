@@ -1,0 +1,36 @@
+{
+  "experiment": "Baseline 3 - QASPER Hybrid Retrieval",
+  "dataset_base": "/kaggle/input/datasets/arvindnandigam/data-qasper/data/qasper",
+  "corpus_size": 81550,
+  "test_queries": 1310,
+  "qrels": 3434,
+  "dense_model": "BAAI/bge-base-en-v1.5",
+  "hnsw_M": 16,
+  "hnsw_efConstruction": 200,
+  "hnsw_efSearch": 256,
+  "candidate_k": 50,
+  "k_values": [
+    1,
+    3,
+    5,
+    10,
+    20,
+    50
+  ],
+  "alphas": [
+    0.0,
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5,
+    0.6,
+    0.7,
+    0.8,
+    0.9,
+    1.0
+  ],
+  "best_alpha": 0.5,
+  "rrf_k": 60,
+  "alpha_selection": "MAP@10"
+}
